@@ -46,12 +46,7 @@ else {
 loader.decode()
 
 //MARK: list loaded
-let sorted = loader.externalReferences.values.sorted { 
-	if $0.level == $1.level { return $0.name < $1.name }
-	return $0.level < $1.level
-}
-
-for (i,extref) in sorted.enumerated() {
+for (i,extref) in loader.externalReferenceList.enumerated() {
 	print("")
 	print("[\(i)]\t LEVEL.\(extref.level)\t \(extref.name)" )
 	print("\t STATUS   = \(extref.status)")
@@ -76,7 +71,7 @@ allmodels.add(models: loader.sdaiModels)
 allmodels.mode = .readOnly
 
 //MARK: validation
-var doAllValidaton = true
+var doAllValidaton = false
 if doAllValidaton {
 	let validationPassed = allmodels.validateAllConstraints(monitor: MyValidationMonitor())
 	

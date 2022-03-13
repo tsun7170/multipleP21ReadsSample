@@ -33,6 +33,7 @@
 		F49AE9E0273B1BF20001B4F2 /* MyActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityMonitor.swift; sourceTree = "<group>"; };
 		F49AE9E3273FA4480001B4F2 /* MyValidationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyValidationMonitor.swift; sourceTree = "<group>"; };
 		F4A35133270E4B0B0020434A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F4A5B5BB27DCD4AE00AC991D /* SwiftAP242PDMkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftAP242PDMkit; path = ../SwiftAP242PDMkit; sourceTree = "<group>"; };
 		F4C0F1512746E6A900EC7C18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +58,7 @@
 				F4C0F1512746E6A900EC7C18 /* README.md */,
 				F4245F03270BA0A7000E728C /* multipleP21ReadsSample */,
 				F4245F02270BA0A7000E728C /* Products */,
+				F4A5B5BB27DCD4AE00AC991D /* SwiftAP242PDMkit */,
 			);
 			sourceTree = "<group>";
 		};
