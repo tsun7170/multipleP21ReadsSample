@@ -51,7 +51,7 @@ class MyActivityMonitor: ExternalReferenceLoader.ActivityMonitor {
 	}
 	
 	var entityCount = 0
-	override func decoderResolved(entiyInstanceName: P21Decode.ExchangeStructure.EntityInstanceName) {
+	override func decoderResolved(entityInstanceName: P21Decode.ExchangeStructure.EntityInstanceName) {
 		entityCount += 1
 		if entityCount % 1000 == 0 			{ print("*", terminator: "") }
 		else if entityCount % 100 == 0 	{ print(".", terminator: "") }		

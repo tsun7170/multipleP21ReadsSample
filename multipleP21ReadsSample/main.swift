@@ -18,7 +18,7 @@ let url = URL(fileURLWithPath: testDataFolder + "CAx STEP FILE LIBRARY/s1-c5-214
 
 
 //MARK: create output repository
-let repository = SDAISessionSchema.SdaiRepository(name: "examle", description: "example repository")
+let repository = SDAISessionSchema.SdaiRepository(name: "example", description: "example repository")
 
 //MARK: prepare the acceptable step schema list
 let schemaList: P21Decode.SchemaList = [
