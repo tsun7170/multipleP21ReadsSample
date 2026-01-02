@@ -11,8 +11,10 @@ import SwiftSDAIcore
 import SwiftAP242PDMkit
 
 //MARK: - activity monitor
-class MyActivityMonitor: ExternalReferenceLoader.ActivityMonitor {
-	
+class MyActivityMonitor:
+  ExternalReferenceLoader.ActivityMonitor, @unchecked Sendable
+{
+
 	//MARK: ExternalReferenceLoader.ActivityMonitor overrides
 	override func startedLoading(externalReference: ExternalReferenceLoader.ExternalReference) {
 		print("\n loading file: \(externalReference.name) ", terminator: "")
@@ -30,19 +32,19 @@ class MyActivityMonitor: ExternalReferenceLoader.ActivityMonitor {
 	
 	//MARK: P21Decode.ActivityMonitor overrides
 	override func tokenStreamDidSet(error p21Error: P21Decode.P21Error) {
-		print("error detected on token stream: \(p21Error)")
+		print("\n error detected on token stream: \(p21Error)")
 	}
 	
 	override func parserDidSet(error p21Error: P21Decode.P21Error) {
-		print("error detected on parser: \(p21Error)")
+		print("\n error detected on parser: \(p21Error)")
 	}
 	
 	override func exchangeStructureDidSet(error exError: String) {
-		print("error detected on exchange structure: \(exError)")
+		print("\n error detected on exchange structure: \(exError)")
 	}
 	
 	override func decoderDidSet(error decoderError: P21Decode.Decoder.Error) {
-		print("error detected on decoder: \(decoderError)")
+		print("\n error detected on decoder: \(decoderError)")
 	}
 	
 	override func scannerDidDetectNewLine(lineNumber: Int) {
