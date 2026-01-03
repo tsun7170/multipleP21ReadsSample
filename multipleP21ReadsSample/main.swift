@@ -103,7 +103,13 @@ print("total duration: \(durationDecode/*.formatted()*/)\n\n")
 //MARK: - start RO transaction
 await session.performTransactionRO { transaction in
   //MARK: list loaded
-  for (i,extref) in externalReferences.values.enumerated() {
+  for (i,extref) in externalReferences
+    .values
+    .sorted(by: {
+      if $0.level < $1.level { return true }
+      return ($0.serial < $1.serial)
+    }).enumerated()
+  {
     print("")
     print("[\(i)]\t LEVEL.\(extref.level)\t \(extref.name)" )
     print("\t STATUS   = \(extref.status)")
