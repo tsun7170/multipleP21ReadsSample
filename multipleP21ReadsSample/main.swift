@@ -56,24 +56,23 @@ let disposition = await session.performTransactionRW(
   ]
 
   //MARK: create external reference loader
-  let monitor = MyActivityMonitor()
-
   guard let loader = ExternalReferenceLoader(
     repository: repository,
     schemaList: schemaList,
     masterFile: url,
-    monitor: monitor)
+    monitorType: MyActivityMonitor.self )
   else {
     print("failed to create ExternalReferenceLoader")
     exit(1)
   }
 
   //MARK: decode p21 char stream
-  await loader.decode(transaction: transaction)
+//  await loader.decode(transaction: transaction)
+  await loader.decodeConcurrently(transaction: transaction)
 
 
   //MARK: create a schema instance containing all models
-  let createdModels = loader.sdaiModels
+  let createdModels = await loader.sdaiModels
 
   // create a schema instance
   guard let schema = createdModels.first?.underlyingSchema,
@@ -88,7 +87,7 @@ let disposition = await session.performTransactionRW(
     let _ = await transaction.addSdaiModel(instance: schemaInstance, model: model)
   }
 
-  return .commit(loader.externalReferences)
+  return await .commit(loader.externalReferences)
 }
 guard case .commit(let externalReferences) = disposition
 else {
