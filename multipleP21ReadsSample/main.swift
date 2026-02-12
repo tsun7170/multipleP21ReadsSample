@@ -18,8 +18,8 @@ print(Date.now.formatted())
 //MARK: identify the input p21 data file
 let testDataFolder = ProcessInfo.processInfo.environment["TEST_DATA_FOLDER"]!
 
-///https://www.cax-if.org/cax/cax_stepLib.php
-///(not accessible any more.)
+//https://www.cax-if.org/cax/cax_stepLib.php
+//(not accessible any more.)
 let url = URL(fileURLWithPath: testDataFolder + "CAx STEP FILE LIBRARY/s1-c5-214/s1-c5-214.stp")
 
 print("\n input: \(url.lastPathComponent)\n\n")
