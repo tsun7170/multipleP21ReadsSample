@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F4245F05270BA0A7000E728C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4245F04270BA0A7000E728C /* main.swift */; };
+		F43742802F015BD9000AD887 /* MyValidationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE9E3273FA4480001B4F2 /* MyValidationMonitor.swift */; };
 		F49AE9E1273B1BF20001B4F2 /* MyActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE9E0273B1BF20001B4F2 /* MyActivityMonitor.swift */; };
-		F49AE9E4273FA4480001B4F2 /* MyValidationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE9E3273FA4480001B4F2 /* MyValidationMonitor.swift */; };
 		F4C5411F27367C9700B464DB /* SwiftSDAIcore in Frameworks */ = {isa = PBXBuildFile; productRef = F4C5411E27367C9700B464DB /* SwiftSDAIcore */; };
 		F4C5412327367CAF00B464DB /* SwiftSDAIap242 in Frameworks */ = {isa = PBXBuildFile; productRef = F4C5412227367CAF00B464DB /* SwiftSDAIap242 */; };
 		F4C5412727367CC700B464DB /* SwiftAP242PDMkit in Frameworks */ = {isa = PBXBuildFile; productRef = F4C5412627367CC700B464DB /* SwiftAP242PDMkit */; };
@@ -30,10 +30,12 @@
 /* Begin PBXFileReference section */
 		F4245F01270BA0A7000E728C /* multipleP21ReadsSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = multipleP21ReadsSample; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4245F04270BA0A7000E728C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F43742822F027F5B000AD887 /* output--s1-c5-214.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "output--s1-c5-214.txt"; sourceTree = "<group>"; };
 		F49AE9E0273B1BF20001B4F2 /* MyActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityMonitor.swift; sourceTree = "<group>"; };
 		F49AE9E3273FA4480001B4F2 /* MyValidationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyValidationMonitor.swift; sourceTree = "<group>"; };
 		F4A35133270E4B0B0020434A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F4A5B5BB27DCD4AE00AC991D /* SwiftAP242PDMkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftAP242PDMkit; path = ../SwiftAP242PDMkit; sourceTree = "<group>"; };
+		F4A5172127E89F5F00D0EF23 /* SwiftAP242PDMkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftAP242PDMkit; path = ../SwiftAP242PDMkit; sourceTree = "<group>"; };
+		F4A5172227E89F5F00D0EF23 /* SwiftSDAIcore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftSDAIcore; path = ../SwiftSDAIcore; sourceTree = "<group>"; };
 		F4C0F1512746E6A900EC7C18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,8 +59,9 @@
 				F4A35133270E4B0B0020434A /* LICENSE */,
 				F4C0F1512746E6A900EC7C18 /* README.md */,
 				F4245F03270BA0A7000E728C /* multipleP21ReadsSample */,
+				F4A5172127E89F5F00D0EF23 /* SwiftAP242PDMkit */,
+				F4A5172227E89F5F00D0EF23 /* SwiftSDAIcore */,
 				F4245F02270BA0A7000E728C /* Products */,
-				F4A5B5BB27DCD4AE00AC991D /* SwiftAP242PDMkit */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,11 +76,20 @@
 		F4245F03270BA0A7000E728C /* multipleP21ReadsSample */ = {
 			isa = PBXGroup;
 			children = (
+				F43742812F027F17000AD887 /* output */,
 				F4245F04270BA0A7000E728C /* main.swift */,
 				F49AE9E0273B1BF20001B4F2 /* MyActivityMonitor.swift */,
 				F49AE9E3273FA4480001B4F2 /* MyValidationMonitor.swift */,
 			);
 			path = multipleP21ReadsSample;
+			sourceTree = "<group>";
+		};
+		F43742812F027F17000AD887 /* output */ = {
+			isa = PBXGroup;
+			children = (
+				F43742822F027F5B000AD887 /* output--s1-c5-214.txt */,
+			);
+			path = output;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,8 +123,9 @@
 		F4245EF9270BA0A7000E728C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					F4245F00270BA0A7000E728C = {
 						CreatedOnToolsVersion = 12.4;
@@ -147,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49AE9E4273FA4480001B4F2 /* MyValidationMonitor.swift in Sources */,
+				F43742802F015BD9000AD887 /* MyValidationMonitor.swift in Sources */,
 				F4245F05270BA0A7000E728C /* main.swift in Sources */,
 				F49AE9E1273B1BF20001B4F2 /* MyActivityMonitor.swift in Sources */,
 			);
@@ -190,9 +203,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZX793TWQF2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -212,6 +228,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -251,9 +268,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZX793TWQF2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,6 +286,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -275,8 +296,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZX793TWQF2;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -286,8 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZX793TWQF2;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -322,7 +345,7 @@
 			repositoryURL = "https://github.com/tsun7170/SwiftSDAIcore.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 		F4C5412127367CAF00B464DB /* XCRemoteSwiftPackageReference "SwiftSDAIap242" */ = {
@@ -330,7 +353,7 @@
 			repositoryURL = "https://github.com/tsun7170/SwiftSDAIap242.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 		F4C5412527367CC700B464DB /* XCRemoteSwiftPackageReference "SwiftAP242PDMkit" */ = {
@@ -338,7 +361,7 @@
 			repositoryURL = "https://github.com/tsun7170/SwiftAP242PDMkit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

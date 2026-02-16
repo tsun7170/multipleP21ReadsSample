@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftAP242PDMkit",
+        "repositoryURL": "https://github.com/tsun7170/SwiftAP242PDMkit.git",
+        "state": {
+          "branch": null,
+          "revision": "028b8a868dbefb2750c83011146856d1db93916e",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "SwiftSDAIap242",
+        "repositoryURL": "https://github.com/tsun7170/SwiftSDAIap242.git",
+        "state": {
+          "branch": null,
+          "revision": "d55ebf21abd4b85915a515aa8fa56dad7b5d059f",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "SwiftSDAIcore",
+        "repositoryURL": "https://github.com/tsun7170/SwiftSDAIcore.git",
+        "state": {
+          "branch": null,
+          "revision": "ebca1969f80ed01108135ad4a75d74ab1e8c4ec6",
+          "version": "1.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,355 @@
+2026/2/10 21:02
+
+ input: s1-c5-214.stp
+
+
+
+ loading file: 0.s1-c5-214.stp 
+
+ parsing header section[0.s1-c5-214.stp]: 
+
+ parsing data section[0.s1-c5-214.stp]: 
+
+ completed parsing[0.s1-c5-214.stp].
+ resolving entity instances[0.s1-c5-214.stp]: 
+
+ completed resolving[0.s1-c5-214.stp].
+ file: 0.s1-c5-214.stp contains 4 external references.
+ file: 0.s1-c5-214.stp completed loading with status(loaded(ExchangeStructure(#ENT: 198)))
+
+ loading file: 1.MAINBODY.stp 
+
+ loading file: 2.HEAD.stp 
+
+ loading file: 3.FOOT.stp 
+
+ loading file: 4.TAIL.stp 
+
+ parsing header section[3.FOOT.stp]: 
+
+ parsing header section[2.HEAD.stp]: 
+
+ parsing header section[4.TAIL.stp]: 
+
+ parsing header section[1.MAINBODY.stp]: 
+
+ parsing data section[3.FOOT.stp]: 
+
+ parsing data section[1.MAINBODY.stp]: 
+
+ parsing data section[4.TAIL.stp]: 
+
+ parsing data section[2.HEAD.stp]: 
+
+ completed parsing[3.FOOT.stp].
+
+ completed parsing[1.MAINBODY.stp].
+ resolving entity instances[3.FOOT.stp]: 
+
+ completed parsing[2.HEAD.stp].
+
+ completed resolving[3.FOOT.stp].
+ resolving entity instances[1.MAINBODY.stp]: 
+ resolving entity instances[2.HEAD.stp]: 
+
+ completed resolving[1.MAINBODY.stp].
+
+ completed resolving[2.HEAD.stp].
+ file: 3.FOOT.stp contains 2 external references.
+ file: 3.FOOT.stp completed loading with status(loaded(ExchangeStructure(#ENT: 105)))
+
+ loading file: 5.FOOT_BACK_000.stp 
+
+ loading file: 6.FOOT_FRONT_000.stp 
+
+ completed parsing[4.TAIL.stp].
+
+ parsing header section[5.FOOT_BACK_000.stp]: 
+
+ parsing header section[6.FOOT_FRONT_000.stp]: 
+ file: 1.MAINBODY.stp contains 2 external references.
+ file: 1.MAINBODY.stp completed loading with status(loaded(ExchangeStructure(#ENT: 105)))
+
+ loading file: 7.MAINBODY_FRONT.stp 
+
+ loading file: 9.MAINBODY_BACK.stp 
+ resolving entity instances[4.TAIL.stp]: 
+
+ parsing header section[7.MAINBODY_FRONT.stp]: 
+ file: 2.HEAD.stp contains 2 external references.
+ file: 2.HEAD.stp completed loading with status(loaded(ExchangeStructure(#ENT: 105)))
+
+ parsing header section[9.MAINBODY_BACK.stp]: 
+
+ parsing data section[5.FOOT_BACK_000.stp]: 
+
+ loading file: 8.HEAD_FRONT.stp 
+
+ parsing data section[6.FOOT_FRONT_000.stp]: 
+
+ completed resolving[4.TAIL.stp].
+
+ parsing data section[7.MAINBODY_FRONT.stp]: 
+
+ loading file: 10.HEAD_BACK.stp 
+
+ parsing header section[8.HEAD_FRONT.stp]: 
+
+ parsing header section[10.HEAD_BACK.stp]: 
+
+ parsing data section[8.HEAD_FRONT.stp]: 
+ file: 4.TAIL.stp contains 2 external references.
+ file: 4.TAIL.stp completed loading with status(loaded(ExchangeStructure(#ENT: 118)))
+
+ loading file: 11.TAIL_MIDDLE_PART.stp 
+
+ loading file: 12.TAIL_TURBINE.stp 
+
+ parsing header section[11.TAIL_MIDDLE_PART.stp]: 
+
+ parsing header section[12.TAIL_TURBINE.stp]: 
+
+ parsing data section[10.HEAD_BACK.stp]: 
+
+ parsing data section[9.MAINBODY_BACK.stp]: 
+
+ parsing data section[11.TAIL_MIDDLE_PART.stp]: 
+
+ parsing data section[12.TAIL_TURBINE.stp]: 
+
+ completed parsing[8.HEAD_FRONT.stp].
+ resolving entity instances[8.HEAD_FRONT.stp]: 
+
+ completed resolving[8.HEAD_FRONT.stp].
+ file: 8.HEAD_FRONT.stp contains 0 external references.
+ file: 8.HEAD_FRONT.stp completed loading with status(loaded(ExchangeStructure(#ENT: 214)))
+
+ completed parsing[5.FOOT_BACK_000.stp].
+ resolving entity instances[5.FOOT_BACK_000.stp]: 
+
+ completed resolving[5.FOOT_BACK_000.stp].
+
+ completed parsing[6.FOOT_FRONT_000.stp].
+ file: 5.FOOT_BACK_000.stp contains 0 external references.
+ file: 5.FOOT_BACK_000.stp completed loading with status(loaded(ExchangeStructure(#ENT: 436)))
+ resolving entity instances[6.FOOT_FRONT_000.stp]: 
+
+ completed resolving[6.FOOT_FRONT_000.stp].
+ file: 6.FOOT_FRONT_000.stp contains 0 external references.
+ file: 6.FOOT_FRONT_000.stp completed loading with status(loaded(ExchangeStructure(#ENT: 436)))
+
+ completed parsing[11.TAIL_MIDDLE_PART.stp].
+ resolving entity instances[11.TAIL_MIDDLE_PART.stp]: 
+
+ completed resolving[11.TAIL_MIDDLE_PART.stp].
+ file: 11.TAIL_MIDDLE_PART.stp contains 0 external references.
+ file: 11.TAIL_MIDDLE_PART.stp completed loading with status(loaded(ExchangeStructure(#ENT: 703)))
+
+ completed parsing[12.TAIL_TURBINE.stp].
+ resolving entity instances[12.TAIL_TURBINE.stp]: 
+
+ completed resolving[12.TAIL_TURBINE.stp].
+ file: 12.TAIL_TURBINE.stp contains 0 external references.
+ file: 12.TAIL_TURBINE.stp completed loading with status(loaded(ExchangeStructure(#ENT: 704)))
+
+ completed parsing[10.HEAD_BACK.stp].
+ resolving entity instances[10.HEAD_BACK.stp]: 
+
+ completed resolving[10.HEAD_BACK.stp].
+ file: 10.HEAD_BACK.stp contains 0 external references.
+ file: 10.HEAD_BACK.stp completed loading with status(loaded(ExchangeStructure(#ENT: 595)))
+
+ completed parsing[7.MAINBODY_FRONT.stp].
+ resolving entity instances[7.MAINBODY_FRONT.stp]: 
+
+ completed resolving[7.MAINBODY_FRONT.stp].
+ file: 7.MAINBODY_FRONT.stp contains 0 external references.
+ file: 7.MAINBODY_FRONT.stp completed loading with status(loaded(ExchangeStructure(#ENT: 1126)))
+
+ completed parsing[9.MAINBODY_BACK.stp].
+ resolving entity instances[9.MAINBODY_BACK.stp]: 
+
+ completed resolving[9.MAINBODY_BACK.stp].
+ file: 9.MAINBODY_BACK.stp contains 0 external references.
+ file: 9.MAINBODY_BACK.stp completed loading with status(loaded(ExchangeStructure(#ENT: 1487)))
+
+(1) decode complete
+total duration: 2.720716958 seconds
+
+
+
+[0]	 LEVEL.0	 0.s1-c5-214.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 198))
+	 UPSTREAM = none
+	 MODELS   = ["s1-c5-214.stp.PRIMARY"]
+
+[1]	 LEVEL.1	 1.MAINBODY.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 105))
+	 UPSTREAM = 0.s1-c5-214.stp
+	 MODELS   = ["MAINBODY.stp.PRIMARY"]
+
+[2]	 LEVEL.1	 2.HEAD.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 105))
+	 UPSTREAM = 0.s1-c5-214.stp
+	 MODELS   = ["HEAD.stp.PRIMARY"]
+
+[3]	 LEVEL.1	 3.FOOT.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 105))
+	 UPSTREAM = 0.s1-c5-214.stp
+	 MODELS   = ["FOOT.stp.PRIMARY"]
+
+[4]	 LEVEL.1	 4.TAIL.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 118))
+	 UPSTREAM = 0.s1-c5-214.stp
+	 MODELS   = ["TAIL.stp.PRIMARY"]
+
+[5]	 LEVEL.2	 5.FOOT_BACK_000.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 436))
+	 UPSTREAM = 3.FOOT.stp
+	 MODELS   = ["FOOT_BACK_000.stp.PRIMARY"]
+
+[6]	 LEVEL.2	 6.FOOT_FRONT_000.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 436))
+	 UPSTREAM = 3.FOOT.stp
+	 MODELS   = ["FOOT_FRONT_000.stp.PRIMARY"]
+
+[7]	 LEVEL.2	 7.MAINBODY_FRONT.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 1126))
+	 UPSTREAM = 1.MAINBODY.stp
+	 MODELS   = ["MAINBODY_FRONT.stp.PRIMARY"]
+
+[8]	 LEVEL.2	 8.HEAD_FRONT.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 214))
+	 UPSTREAM = 2.HEAD.stp
+	 MODELS   = ["HEAD_FRONT.stp.PRIMARY"]
+
+[9]	 LEVEL.2	 9.MAINBODY_BACK.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 1487))
+	 UPSTREAM = 1.MAINBODY.stp
+	 MODELS   = ["MAINBODY_BACK.stp.PRIMARY"]
+
+[10]	 LEVEL.2	 10.HEAD_BACK.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 595))
+	 UPSTREAM = 2.HEAD.stp
+	 MODELS   = ["HEAD_BACK.stp.PRIMARY"]
+
+[11]	 LEVEL.2	 11.TAIL_MIDDLE_PART.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 703))
+	 UPSTREAM = 4.TAIL.stp
+	 MODELS   = ["TAIL_MIDDLE_PART.stp.PRIMARY"]
+
+[12]	 LEVEL.2	 12.TAIL_TURBINE.stp
+	 STATUS   = loaded(ExchangeStructure(#ENT: 704))
+	 UPSTREAM = 4.TAIL.stp
+	 MODELS   = ["TAIL_TURBINE.stp.PRIMARY"]
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[108]:	 #lookups: 168, #hits: 60, %hit rate: 35.714286%
+ model   cache[14]:	 #lookups: 1620, #hits: 1606, %hit rate: 99.135802%
+
+(2) inspection complete
+
+
+
+ validating instance reference domain for 24238 application instances:
+ 
+
+SDAI Thread Local Cache Statistics [SdaiTransactionRO]
+ complex cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
+ model   cache[0]:	 #lookups: 0, #hits: 0, %hit rate: NaN%
+....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+....10
+ duration: 0:00:02
+
+
+ validating 55 global rules:
+ .........+.........+........
+FAILED: AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED
+.+.........+..
+FAILED: VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES
+.......+.....
+ duration: 0:00:02
+
+
+ validating 49 uniqueness rules:
+ .......
+FAILED: UniquenessRule(NEXT_ASSEMBLY_USAGE_OCCURRENCE.UNIQUE_ur1)
+..+.........+.........+.........+.........
+ duration: 0:00:00
+
+
+ validating where rules for 6332 complex entities:
+ .
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_23]
+ complex cache[140]:	 #lookups: 295, #hits: 155, %hit rate: 52.542373%
+ model   cache[14]:	 #lookups: 860, #hits: 846, %hit rate: 98.372093%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_23821]
+ complex cache[744]:	 #lookups: 3618, #hits: 2874, %hit rate: 79.436153%
+ model   cache[14]:	 #lookups: 1932, #hits: 1918, %hit rate: 99.275362%
+
+SDAI Thread Local Cache Statistics [SDAI.GlobalRuleValidation_0]
+ complex cache[75]:	 #lookups: 123, #hits: 48, %hit rate: 39.02439%
+ model   cache[14]:	 #lookups: 173, #hits: 159, %hit rate: 91.907514%
+.
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_24058]
+ complex cache[983]:	 #lookups: 4154, #hits: 3171, %hit rate: 76.336062%
+ model   cache[14]:	 #lookups: 3549, #hits: 3535, %hit rate: 99.605523%
+.
+
+SDAI Thread Local Cache Statistics [SdaiTransactionVA]
+ complex cache[3648]:	 #lookups: 6677, #hits: 3029, %hit rate: 45.364685%
+ model   cache[14]:	 #lookups: 5362, #hits: 5348, %hit rate: 99.738903%
+.
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_23644]
+ complex cache[608]:	 #lookups: 2978, #hits: 2370, %hit rate: 79.583613%
+ model   cache[14]:	 #lookups: 2950, #hits: 2936, %hit rate: 99.525424%
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_23703]
+ complex cache[741]:	 #lookups: 3312, #hits: 2571, %hit rate: 77.626812%
+ model   cache[14]:	 #lookups: 2265, #hits: 2251, %hit rate: 99.381898%
++....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9
+FAILED: PRODUCT_CATEGORY-> s1-c5-214.stp.PRIMARY#8 .PRODUCTS(SET).loBound(1)
+
+FAILED: PRODUCT_RELATED_PRODUCT_CATEGORY-> s1-c5-214.stp.PRIMARY#8 .PRODUCTS(SET).loBound(1)
+....+....10
+ duration: 0:01:33
+
+
+ SCHEMA INSTANCE VALIDATION RESULT
+ validationPassed?: LOGICAL(FALSE)
+
+ instanceReferenceDomainValidationRecord: InstanceReferenceDomainValidationResult( result:LOGICAL(UNKNOWN)
+
+
+
+ globalRuleValidationRecord: GlobalRuleValidationResult 2 records
+[0]LOGICAL(FALSE)	AP242_APPLICATION_PROTOCOL_DEFINITION_REQUIRED:	(WHERE_wr1: LOGICAL(FALSE)) 
+[1]LOGICAL(FALSE)	VALIDATE_DEPENDENTLY_INSTANTIABLE_ENTITY_DATA_TYPES:	(WHERE_wr1: LOGICAL(FALSE)) 
+
+
+
+ uniquenessRuleValidationRecord: UniquenessRuleValidationResult  1 records
+[0]LOGICAL(FALSE)	UniquenessRule(NEXT_ASSEMBLY_USAGE_OCCURRENCE.UNIQUE_ur1): #duplicates(9) / #instances(14)
+
+
+
+ whereRuleValidationRecord: WhereRuleValidationResult( result:LOGICAL(FALSE)
+[0]	PRODUCT_CATEGORY-> s1-c5-214.stp.PRIMARY#8 .PRODUCTS(SET).loBound(1): LOGICAL(FALSE)
+[1]	PRODUCT_RELATED_PRODUCT_CATEGORY-> s1-c5-214.stp.PRIMARY#8 .PRODUCTS(SET).loBound(1): LOGICAL(FALSE)
+
+
+
+SDAI Thread Local Cache Statistics [SDAI.RefDomainValidation_24118]
+ complex cache[2502]:	 #lookups: 109444, #hits: 106942, %hit rate: 97.713899%
+ model   cache[1]:	 #lookups: 196490, #hits: 196476, %hit rate: 99.992875%
+
+(3) validation complete
+
+
+normal end of execution
+2026/2/10 21:04
+total duration: 0:01:40
+Program ended with exit code: 0
