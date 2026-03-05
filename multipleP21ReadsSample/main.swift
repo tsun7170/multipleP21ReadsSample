@@ -8,8 +8,10 @@
 
 import Foundation
 import SwiftSDAIcore
-import SwiftSDAIap242
+import SwiftSDAIap242ed4
 import SwiftAP242PDMkit
+
+typealias ap242 = ap242ed4
 
 let stopwatch = ContinuousClock()
 let beginRun = stopwatch.now
@@ -20,7 +22,9 @@ let testDataFolder = ProcessInfo.processInfo.environment["TEST_DATA_FOLDER"]!
 
 //https://www.cax-if.org/cax/cax_stepLib.php
 //(not accessible any more.)
-let url = URL(fileURLWithPath: testDataFolder + "CAx STEP FILE LIBRARY/s1-c5-214/s1-c5-214.stp")
+let url = URL(fileURLWithPath: testDataFolder +
+              "CAx STEP FILE LIBRARY/s1-c5-214/s1-c5-214.stp"
+)
 
 print("\n input: \(url.lastPathComponent)\n\n")
 
